@@ -57,7 +57,7 @@ https://flickity.metafizzy.co
 
 .flickity-button:focus {
   outline: none;
-  box-shadow: 0 0 0 5px #19F;
+  box-shadow: 0 0 0 5px #3586ff;
 }
 
 .flickity-button:active {
@@ -124,7 +124,7 @@ https://flickity.metafizzy.co
   width: 10px;
   height: 10px;
   margin: 0 8px;
-  background: #9D00B8;
+  background: #0093b8;
   border-radius: 50%;
   opacity: 0.25;
   cursor: pointer;
