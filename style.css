@@ -1,6 +1,12 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
 /* display background color black on navbar scroll */
 .navbarScroll.navbarDark {
-    background-color: black;
+    background-color: #242424;
+}
+
+section{
 }
 
 /* hero background image */
@@ -27,15 +33,12 @@
 }
 
 /* spacing on all sections */
-/* #about, #services, #portfolio, #contact {
+#about, #portfolio, #contact {
     margin-top: 4rem;
     padding-top: 4rem;
-} */
+} 
 #contact {
-    padding-bottom: 5rem;
-    text-decoration: none;
-}
-#contact>a{
+    padding-bottom: 6rem;
     text-decoration: none;
 }
 /* about section image css */
@@ -47,18 +50,33 @@
   background-color: #3586ff;
   border-color: #3586ff;
 }
+#portfolio .btn-success:hover {
+  background-color: #35aeff;
+  border-color: #35aeff;
+  box-shadow: #727272  0px 1px 3px 0px;
+}
 /* social media icons styling */
 .social-icons {
     font-size: 36px;
     cursor: pointer;
-}
-.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
-    color: #3586ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .fab {
     color: #000000;
 }
-/* footer styling */
+.contact{
+  text-decoration: none;
+  color: #000000;
+}
+
+
+
+
+
+
+/********************* footer styling *********************/
 .footer {
     margin-top: 5rem;
     position: relative;
